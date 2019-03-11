@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+    <head>
+        <title>My Project</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script type="text/javascript" src="jquery-3.3.1.js"></script>
+    </head>
+    <body>
+        <div class="menubox">
+            <a href="#" id="logo"></a>
+            <div class="divnav">
+                <nav class="menu">
+                    <a href="#" id="menu_icon"></a>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Profile</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>  
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="webheader"><h1>Pictures Slyder</h1></div>
+        <div class="slideshow-container">
+            <div id="slider">
+                <img class="slide" src="pictuers/pic1.jpg">
+                <img class="slide" src="pictuers/pic2.jpg"> 
+                <img class="slide" src="pictuers/pic3.jpg"> 
+                <img class="slide" src="pictuers/pic4.jpg"> 
+                <img class="slide" src="pictuers/pic5.jpg"> 
+            </div>
+
+            <!--button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button-->
+            <a class="prev" onclick="plusDivs(-1)">&#10094;</a>
+            <a class="next" onclick="plusDivs(1)">&#10095;</a>
+        </div>
+        <div id="dotss" style="text-align:center"> 
+        <!--span class="dot" onclick="currentSlide(1)"></span-->
+        </div>    
+<script type="text/javascript" src="MyProject.js"></script>
+    </body>
+</html>
