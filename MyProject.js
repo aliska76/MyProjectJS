@@ -1,15 +1,5 @@
 'use strict';
 
-//var myInterval = setInterval(function() {
- //   console.log(new Date());
-  //  }, 1000);
-//$(selector).animate(obj,time,callback)
-/*$(function() {
-    setInterval(function() {
-        console.log($('#slider .slides') + 3000);
-        $('#slider .slides').animate({'margin-left': '+=720 px'}, 1000);
-    }, 3000);
-});*/
 var slideIndex = 1;
 var x = document.getElementsByClassName("slide");
 $('.slide').addClass('fade');
